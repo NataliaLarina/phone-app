@@ -1,0 +1,28 @@
+html {
+  background-color: lightgreen;
+}
+
+#myModal {
+  background-color: lightgreen;
+}
+
+.modal-title {
+  text-align: center;
+  color: grey;
+}
+
+.modal-body {
+  text-align: center;
+  background-color: lightgrey;
+  background-image: url(https://thumbs.dreamstime.com/t/abstract-wave-design-concept-background-pink-purple-color-38124029.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 3px 5px;
+  width: 70px;
+  length: auto;
+}
