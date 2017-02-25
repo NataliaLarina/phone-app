@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
 html {
   background-color: lightgreen;
 }
@@ -6,23 +9,49 @@ html {
   background-color: lightgreen;
 }
 
-.modal-title {
-  text-align: center;
-  color: grey;
+.modal-dialog {
+  width: 25%;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 25%;
+    }
+}
+
+#phoneicon {
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
 }
 
 .modal-body {
   text-align: center;
-  background-color: lightgrey;
-  background-image: url(https://thumbs.dreamstime.com/t/abstract-wave-design-concept-background-pink-purple-color-38124029.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
 }
 
 button {
-  margin-top: 10px;
-  padding: 3px 5px;
-  width: 70px;
+  margin-top: 20px;
+  /*padding: 3px 5px;*/
+  padding: 10px 10px;
+  /*width: 70px;*/
+  width: 80px;
   length: auto;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+p {
+  font-size: 10px;
+}
+
+#call {
+  font-size: 15px;
+  length: 300px;
 }
