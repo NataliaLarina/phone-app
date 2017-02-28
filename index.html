@@ -25,13 +25,14 @@
               <div class="modal-content">
                 <div class="modal-body">
 
-                  <input type="tel" name="name" id="telNumber" class="form-control tel" value="" />
+                  <input type="number" name="name" id="telNumber" class="form-control tel" value="" maxlength="2" min="0" max="10"
+                  onkeypress="limitKeypress(event,this.value,2)"/>
 
                   <div class="num-pad">
 
-                  <button type="button" id="1" class="btn btn-default
+                  <button type="button" class="btn btn-default
                   btn-circle btn-xl"><i class="glyphicon"></i>
-                  <div class="num">1</div></button>
+                  <div class="num">1</div><br></button>
 
                   <button type="button" class="btn btn-default
                   btn-circle btn-xl"><i class="glyphicon"></i><div class="num">2</div><p>ABC</p></button>
@@ -62,20 +63,22 @@
                   <br />
 
                   <button type="button" class="btn btn-default
-                  btn-circle btn-xl"><i class="glyphicon"></i><div class="num">*</div></button>
+                  btn-circle btn-xl"><i class="glyphicon"></i><div
+                  class="num" >*</div></button>
 
                   <button type="button" class="btn btn-default
                   btn-circle btn-xl"><i class="glyphicon"></i><div class="num">0</div><p>+</p></button>
 
                   <button type="button" class="btn btn-default
-                  btn-circle btn-xl"><i class="glyphicon"></i><div class="num">#</div></button>
+                  btn-circle btn-xl"><i class="glyphicon"></i><div class="num">#</div><br/></button>
 
                   <br  />
 
                   </div>
-                  <img id="phoneicon" src="images/greenphoneicon.png" alt="">
+                  <img id="phoneicon" src="images/greenphoneicon.png" alt="" onclick='showMessage()'>
 
 
+                </div>
                 </div>
               </div>
             </div>
